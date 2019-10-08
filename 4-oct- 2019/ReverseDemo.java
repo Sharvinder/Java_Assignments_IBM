@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Reversedemo
+class ReverseDemo
 {
 	public static void main(String[] args) {
 		String reverse="",str;
