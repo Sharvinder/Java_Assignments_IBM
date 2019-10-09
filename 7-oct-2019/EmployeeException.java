@@ -36,7 +36,7 @@ class EmployeeSalaryDemo extends Exception
         }
         catch(EmployeeException ex)
         {
-            System.out.println("Caught Exception - Salary is less than 3000" + ex);
+            System.out.println("Caught Exception - Salary is less than 3000" + ex.getMessage());
         }
     }
 }
