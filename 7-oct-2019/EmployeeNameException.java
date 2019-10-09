@@ -30,7 +30,7 @@ class TestCustomException
 		}
 		catch(EmployeeNameException en)
 		{
-			System.out.println("Rest of the code: "+en.getMessage());
+			System.out.println("Exception occured: "+en.getMessage());
 		}  
   }  
 }  
