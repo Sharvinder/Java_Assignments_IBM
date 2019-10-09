@@ -13,16 +13,16 @@ public class TrafficLightDemo {
   
         
         switch (color) { 
-        case "red" : 
-            signal="Stop";
-            break; 
-
-        case "yellow" :  
+            case "yellow" :  
             signal="ready";
             break;
-
-        case "green" :  
+            
+            case "green" :  
             signal="Go";
+            break; 
+            
+            case "red" : 
+            signal="Stop";
             break; 
 
             default:
