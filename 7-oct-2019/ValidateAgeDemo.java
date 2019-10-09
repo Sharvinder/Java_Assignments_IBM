@@ -33,7 +33,7 @@ class ValidateAgeDemo extends Exception
         }
         catch(InvalidAgeException ex)
         {
-            System.out.println("Caught Exception - Age is less than 15"+ex.getmessage);
+            System.out.println("Caught Exception - Age is less than 15"+ex.getmessage());
         }
     }
 }
